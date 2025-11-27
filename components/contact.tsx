@@ -48,9 +48,8 @@ export function Contact() {
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
           {/* Info */}
           <div
-            className={`transition-all duration-1000 ${
-              isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-12"
-            }`}
+            className={`transition-all duration-1000 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-12"
+              }`}
           >
             <p className="font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground mb-6">Get in Touch</p>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter text-foreground mb-8 leading-[0.95]">
@@ -72,32 +71,32 @@ export function Contact() {
                 <span className="font-mono text-sm text-muted-foreground">Email</span>
                 <span className="flex-1 h-px bg-border" />
                 <span className="font-mono text-sm text-foreground group-hover:text-muted-foreground transition-colors">
-                  nero@neroink.com
+                  cipritattoo@gmail.com
                 </span>
               </a>
               <a href="#" className="group flex items-center gap-4">
                 <span className="font-mono text-sm text-muted-foreground">Instagram</span>
                 <span className="flex-1 h-px bg-border" />
                 <span className="font-mono text-sm text-foreground group-hover:text-muted-foreground transition-colors">
-                  @nero.ink
+                  @ciprianmunteanu.tattoo
                 </span>
               </a>
               <div className="flex items-center gap-4">
                 <span className="font-mono text-sm text-muted-foreground">Location</span>
                 <span className="flex-1 h-px bg-border" />
-                <span className="font-mono text-sm text-foreground">Los Angeles, CA</span>
+                <span className="font-mono text-sm text-foreground">București, RO</span>
               </div>
             </div>
 
             {/* Social */}
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://instagram.com/ciprianmunteanu.tattoo"
                 className="w-12 h-12 border border-border flex items-center justify-center hover:bg-foreground hover:border-foreground group transition-all duration-300"
               >
                 <Instagram className="text-foreground group-hover:text-background transition-colors" size={18} />
               </a>
-              <a
+              {/* <a
                 href="#"
                 className="w-12 h-12 border border-border flex items-center justify-center hover:bg-foreground hover:border-foreground group transition-all duration-300"
               >
@@ -108,22 +107,20 @@ export function Contact() {
                 >
                   <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
                 </svg>
-              </a>
+              </a> */}
             </div>
           </div>
 
           <div
-            className={`transition-all duration-1000 delay-200 ${
-              isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-12"
-            }`}
+            className={`transition-all duration-1000 delay-200 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-12"
+              }`}
           >
             <form onSubmit={handleSubmit} className="space-y-8">
               <div className="relative">
                 <label
                   htmlFor="name"
-                  className={`font-mono text-[10px] uppercase tracking-[0.3em] absolute left-0 transition-all duration-300 ${
-                    focusedField === "name" || formState.name ? "-top-6 text-foreground" : "top-3 text-muted-foreground"
-                  }`}
+                  className={`font-mono text-[10px] uppercase tracking-[0.3em] absolute left-0 transition-all duration-300 ${focusedField === "name" || formState.name ? "-top-6 text-foreground" : "top-3 text-muted-foreground"
+                    }`}
                 >
                   Your Name
                 </label>
@@ -141,11 +138,10 @@ export function Contact() {
               <div className="relative">
                 <label
                   htmlFor="email"
-                  className={`font-mono text-[10px] uppercase tracking-[0.3em] absolute left-0 transition-all duration-300 ${
-                    focusedField === "email" || formState.email
-                      ? "-top-6 text-foreground"
-                      : "top-3 text-muted-foreground"
-                  }`}
+                  className={`font-mono text-[10px] uppercase tracking-[0.3em] absolute left-0 transition-all duration-300 ${focusedField === "email" || formState.email
+                    ? "-top-6 text-foreground"
+                    : "top-3 text-muted-foreground"
+                    }`}
                 >
                   Email Address
                 </label>
@@ -163,11 +159,10 @@ export function Contact() {
               <div className="relative">
                 <label
                   htmlFor="message"
-                  className={`font-mono text-[10px] uppercase tracking-[0.3em] absolute left-0 transition-all duration-300 ${
-                    focusedField === "message" || formState.message
-                      ? "-top-6 text-foreground"
-                      : "top-3 text-muted-foreground"
-                  }`}
+                  className={`font-mono text-[10px] uppercase tracking-[0.3em] absolute left-0 transition-all duration-300 ${focusedField === "message" || formState.message
+                    ? "-top-6 text-foreground"
+                    : "top-3 text-muted-foreground"
+                    }`}
                 >
                   Tell Me About Your Idea
                 </label>

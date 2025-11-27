@@ -33,7 +33,7 @@ export function Header() {
       <div className="max-w-[1800px] mx-auto px-6 md:px-12">
         <nav className="flex items-center justify-between">
           <a href="#" className="group relative">
-            <span className="font-mono text-xl md:text-2xl font-bold tracking-tighter text-white uppercase">NERO</span>
+            <span className="font-mono text-xl md:text-2xl font-bold tracking-tighter text-white uppercase">CIPRI</span>
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full" />
           </a>
 
@@ -80,9 +80,8 @@ export function Header() {
             {navItems.map((item, index) => (
               <li
                 key={item.label}
-                className={`transition-all duration-500 ${
-                  isMobileMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
-                }`}
+                className={`transition-all duration-500 ${isMobileMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
+                  }`}
                 style={{ transitionDelay: `${index * 100}ms` }}
               >
                 <a

@@ -7,7 +7,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo */}
           <a href="#" className="font-mono text-lg font-bold tracking-tighter text-foreground uppercase">
-            NERO
+            CIPRI
           </a>
 
           {/* Links */}
@@ -39,9 +39,22 @@ export function Footer() {
           </div>
 
           {/* Copyright */}
-          <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
-            © {new Date().getFullYear()} Nero Ink
-          </p>
+          <div className="flex flex-col">
+            <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
+              © {new Date().getFullYear()} Ciprian Munteanu Tattoo
+            </p>
+            <div className="flex items-center justify-center">
+              <p className="font-mono text-[8px] uppercase tracking-[0.2em] text-muted-foreground">
+                Made with love by{" "}
+                <a
+                  href="https://portfolio.treideee.ro"
+                  className="inline font-mono text-[8px] uppercase tracking-[0.2em] text-muted-background flex items-center justify-center hover:text-yellow  group transition-all duration-300"> {/*hover:bg-yellow hover:border-yellow hover:rounded-[4] add this if border is wanted*/}
+                  Theodor Ionică
+                </a>
+              </p>
+            </div>
+          </div>
+
         </div>
       </div>
     </footer>

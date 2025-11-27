@@ -33,9 +33,8 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           {/* Image */}
           <div
-            className={`relative transition-all duration-1000 ${
-              isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-12"
-            }`}
+            className={`relative transition-all duration-1000 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-12"
+              }`}
           >
             <div className="aspect-[3/4] overflow-hidden relative">
               <img
@@ -49,20 +48,18 @@ export function About() {
 
             {/* Floating badge */}
             <div
-              className={`absolute -bottom-6 -right-6 bg-foreground text-background p-6 transition-all duration-1000 delay-300 ${
-                isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-              }`}
+              className={`absolute -bottom-6 -right-6 bg-foreground text-background p-6 transition-all duration-1000 delay-300 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+                }`}
             >
-              <span className="font-mono text-4xl font-bold">12+</span>
+              <span className="font-mono text-4xl font-bold">4+</span>
               <p className="font-mono text-[10px] uppercase tracking-[0.2em] mt-1">Years of Craft</p>
             </div>
           </div>
 
           {/* Content */}
           <div
-            className={`transition-all duration-1000 delay-200 ${
-              isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-12"
-            }`}
+            className={`transition-all duration-1000 delay-200 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-12"
+              }`}
           >
             <p className="font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground mb-6">About the Artist</p>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter text-foreground mb-8 leading-[0.95]">
@@ -86,13 +83,13 @@ export function About() {
             <div className="mt-12 pt-12 border-t border-border">
               <div className="flex items-center gap-8">
                 <div>
-                  <p className="text-3xl font-bold text-foreground">Nero</p>
+                  <p className="text-3xl font-bold text-foreground">Ciprian</p>
                   <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
                     Lead Artist & Founder
                   </p>
                 </div>
                 <div className="flex-1 h-px bg-border" />
-                <div className="font-mono text-6xl font-bold text-foreground/10">N</div>
+                <div className="font-mono text-6xl font-bold text-foreground/10">C</div>
               </div>
             </div>
           </div>

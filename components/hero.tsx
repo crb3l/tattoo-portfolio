@@ -90,11 +90,11 @@ export function Hero() {
             }`}
         >
           <div className="">
-            <span className="font-mono text-4xl md:text-5xl font-bold text-foreground">12+</span>
+            <span className="font-mono text-4xl md:text-5xl font-bold text-foreground">4+</span>
             <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground mt-1">Years</p>
           </div>
           <div>
-            <span className="font-mono text-4xl md:text-5xl font-bold text-foreground">3K+</span>
+            <span className="font-mono text-4xl md:text-5xl font-bold text-foreground">1K+</span>
             <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground mt-1">Pieces</p>
           </div>
         </div>
