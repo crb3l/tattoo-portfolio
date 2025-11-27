@@ -44,36 +44,32 @@ export function Hero() {
       <div className="relative z-10 w-full max-w-[1800px] mx-auto px-6 md:px-12">
         <div className="overflow-hidden">
           <h1
-            className={`text-[15vw] md:text-[12vw] font-bold leading-[0.85] tracking-tighter text-foreground transition-all duration-1000 ${
-              isLoaded ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
-            }`}
+            className={`text-[15vw] md:text-[12vw] font-bold leading-[0.85] tracking-tighter text-foreground transition-all duration-1000 ${isLoaded ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
+              }`}
           >
             BLACK
           </h1>
         </div>
         <div className="overflow-hidden">
           <h1
-            className={`text-[15vw] md:text-[12vw] font-bold leading-[0.85] tracking-tighter text-foreground transition-all duration-1000 delay-200 ${
-              isLoaded ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
-            }`}
+            className={`text-[15vw] md:text-[12vw] font-bold leading-[0.85] tracking-tighter text-foreground transition-all duration-1000 delay-200 ${isLoaded ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
+              }`}
           >
             &amp; GREY
           </h1>
         </div>
         <div className="overflow-hidden mt-4">
           <p
-            className={`font-mono text-xs md:text-sm uppercase tracking-[0.3em] text-muted-foreground transition-all duration-1000 delay-500 ${
-              isLoaded ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
-            }`}
+            className={`font-mono text-xs md:text-sm uppercase tracking-[0.3em] text-muted-foreground transition-all duration-1000 delay-500 ${isLoaded ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
+              }`}
           >
             Hyperrealistic Tattoo Art
           </p>
         </div>
 
         <div
-          className={`absolute right-6 md:right-12 top-1/2 -translate-y-1/2 transition-all duration-1000 delay-700 ${
-            isLoaded ? "opacity-100 translate-x-0" : "opacity-0 translate-x-12"
-          }`}
+          className={`absolute right-6 md:right-12 top-1/2 -translate-y-1/2 transition-all duration-1000 delay-700 ${isLoaded ? "opacity-100 translate-x-0" : "opacity-0 translate-x-12"
+            }`}
         >
           <div className="flex flex-col items-end gap-4">
             <span
@@ -90,11 +86,10 @@ export function Hero() {
 
         {/* Stats */}
         <div
-          className={`absolute bottom-12 left-6 md:left-12 flex gap-12 transition-all duration-1000 delay-900 ${
-            isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-          }`}
+          className={`bottom-12 left-6 md:left-12 flex gap-12 transition-all duration-1000 delay-900 ${isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+            }`}
         >
-          <div>
+          <div className="">
             <span className="font-mono text-4xl md:text-5xl font-bold text-foreground">12+</span>
             <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground mt-1">Years</p>
           </div>
