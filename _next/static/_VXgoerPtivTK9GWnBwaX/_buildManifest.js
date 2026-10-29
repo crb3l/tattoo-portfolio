@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/tattoo-portoflio/_next/:path+",
+        "destination": "/tattoo-portfolio/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
