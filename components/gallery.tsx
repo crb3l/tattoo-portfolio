@@ -7,7 +7,7 @@ import { X, ArrowUpRight } from "lucide-react"
 const artworks = [
   {
     id: 1,
-    src: `/black-and-grey-realistic-lion-portrait-tattoo-high.jpg`,
+    src: `${process.env.IMAGES_PUBLIC_PATH}/black-and-grey-realistic-lion-portrait-tattoo-high.jpg`,
     title: "Lion Portrait",
     category: "Realism",
   },

@@ -38,7 +38,7 @@ export function About() {
           >
             <div className="aspect-[3/4] overflow-hidden relative">
               <img
-                src="/tattoo-artist-portrait-black-and-white-dramatic-li.jpg"
+                src={`${process.env.IMAGES_PUBLIC_PATH}/tattoo-artist-portrait-black-and-white-dramatic-li.jpg`}
                 alt="Artist at work"
                 className="w-full h-full object-cover grayscale"
               />

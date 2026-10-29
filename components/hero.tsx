@@ -34,7 +34,7 @@ export function Hero() {
         style={{ transform: `translate(${mousePosition.x}px, ${mousePosition.y}px)` }}
       >
         <img
-          src="/black-and-white-hyperrealistic-tattoo-sleeve-close.jpg"
+          src={`${process.env.IMAGES_PUBLIC_PATH}/black-and-white-hyperrealistic-tattoo-sleeve-close.jpg`}
           alt="Tattoo artwork"
           className="w-full h-full object-cover opacity-30 scale-110 grayscale"
         />
