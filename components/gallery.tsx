@@ -7,37 +7,37 @@ import { X, ArrowUpRight } from "lucide-react"
 const artworks = [
   {
     id: 1,
-    src: "/black-and-grey-realistic-lion-portrait-tattoo-high.jpg",
+    src: `${process.env.IMAGE_PUBLIC_PATH}/black-and-grey-realistic-lion-portrait-tattoo-high.jpg`,
     title: "Lion Portrait",
     category: "Realism",
   },
   {
     id: 2,
-    src: "/black-and-grey-skull-with-roses-tattoo-hyperrealis.jpg",
+    src: `${process.env.IMAGE_PUBLIC_PATH}/black-and-grey-skull-with-roses-tattoo-hyperrealis.jpg`,
     title: "Memento Mori",
     category: "Dark Art",
   },
   {
     id: 3,
-    src: "/black-and-grey-female-portrait-tattoo-photorealist.jpg",
+    src: `${process.env.IMAGE_PUBLIC_PATH}/black-and-grey-female-portrait-tattoo-photorealist.jpg`,
     title: "Portrait Study",
     category: "Portraits",
   },
   {
     id: 4,
-    src: "/black-and-grey-wolf-tattoo-realistic-nature-dramat.jpg",
+    src: `${process.env.IMAGE_PUBLIC_PATH}/black-and-grey-wolf-tattoo-realistic-nature-dramat.jpg`,
     title: "Alpha Wolf",
     category: "Realism",
   },
   {
     id: 5,
-    src: "/black-and-grey-eye-tattoo-hyperrealistic-detail-ma.jpg",
+    src: `${process.env.IMAGE_PUBLIC_PATH}/black-and-grey-eye-tattoo-hyperrealistic-detail-ma.jpg`,
     title: "The Watcher",
     category: "Dark Art",
   },
   {
     id: 6,
-    src: "/black-and-grey-hand-skeleton-tattoo-anatomical-det.jpg",
+    src: `${process.env.IMAGE_PUBLIC_PATH}/black-and-grey-hand-skeleton-tattoo-anatomical-det.jpg`,
     title: "Anatomy",
     category: "Realism",
   },

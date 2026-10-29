@@ -11,6 +11,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  env:{IMAGES_PUBLIC_PATH:'/tattoo-portfolio'}
 }
 
 export default nextConfig
