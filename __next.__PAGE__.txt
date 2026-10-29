@@ -1,15 +1,15 @@
 1:"$Sreact.fragment"
-2:I[98562,["/tattoo-portfolio/_next/static/chunks/5bab93f39577e409.js","/tattoo-portfolio/_next/static/chunks/3a9dde2252f0183e.js"],"Loader"]
-3:I[55071,["/tattoo-portfolio/_next/static/chunks/5bab93f39577e409.js","/tattoo-portfolio/_next/static/chunks/3a9dde2252f0183e.js"],"Cursor"]
-4:I[13293,["/tattoo-portfolio/_next/static/chunks/5bab93f39577e409.js","/tattoo-portfolio/_next/static/chunks/3a9dde2252f0183e.js"],"Header"]
-5:I[85161,["/tattoo-portfolio/_next/static/chunks/5bab93f39577e409.js","/tattoo-portfolio/_next/static/chunks/3a9dde2252f0183e.js"],"Hero"]
-6:I[19358,["/tattoo-portfolio/_next/static/chunks/5bab93f39577e409.js","/tattoo-portfolio/_next/static/chunks/3a9dde2252f0183e.js"],"Marquee"]
-7:I[76037,["/tattoo-portfolio/_next/static/chunks/5bab93f39577e409.js","/tattoo-portfolio/_next/static/chunks/3a9dde2252f0183e.js"],"Gallery"]
-8:I[20608,["/tattoo-portfolio/_next/static/chunks/5bab93f39577e409.js","/tattoo-portfolio/_next/static/chunks/3a9dde2252f0183e.js"],"About"]
-9:I[54397,["/tattoo-portfolio/_next/static/chunks/5bab93f39577e409.js","/tattoo-portfolio/_next/static/chunks/3a9dde2252f0183e.js"],"Services"]
-a:I[15751,["/tattoo-portfolio/_next/static/chunks/5bab93f39577e409.js","/tattoo-portfolio/_next/static/chunks/3a9dde2252f0183e.js"],"Contact"]
-b:I[76841,["/tattoo-portfolio/_next/static/chunks/5bab93f39577e409.js","/tattoo-portfolio/_next/static/chunks/3a9dde2252f0183e.js"],"Footer"]
+2:I[98562,["/tattoo-portfolio/_next/static/chunks/5bab93f39577e409.js","/tattoo-portfolio/_next/static/chunks/d94e3fee77eb20d5.js"],"Loader"]
+3:I[55071,["/tattoo-portfolio/_next/static/chunks/5bab93f39577e409.js","/tattoo-portfolio/_next/static/chunks/d94e3fee77eb20d5.js"],"Cursor"]
+4:I[13293,["/tattoo-portfolio/_next/static/chunks/5bab93f39577e409.js","/tattoo-portfolio/_next/static/chunks/d94e3fee77eb20d5.js"],"Header"]
+5:I[85161,["/tattoo-portfolio/_next/static/chunks/5bab93f39577e409.js","/tattoo-portfolio/_next/static/chunks/d94e3fee77eb20d5.js"],"Hero"]
+6:I[19358,["/tattoo-portfolio/_next/static/chunks/5bab93f39577e409.js","/tattoo-portfolio/_next/static/chunks/d94e3fee77eb20d5.js"],"Marquee"]
+7:I[76037,["/tattoo-portfolio/_next/static/chunks/5bab93f39577e409.js","/tattoo-portfolio/_next/static/chunks/d94e3fee77eb20d5.js"],"Gallery"]
+8:I[20608,["/tattoo-portfolio/_next/static/chunks/5bab93f39577e409.js","/tattoo-portfolio/_next/static/chunks/d94e3fee77eb20d5.js"],"About"]
+9:I[54397,["/tattoo-portfolio/_next/static/chunks/5bab93f39577e409.js","/tattoo-portfolio/_next/static/chunks/d94e3fee77eb20d5.js"],"Services"]
+a:I[15751,["/tattoo-portfolio/_next/static/chunks/5bab93f39577e409.js","/tattoo-portfolio/_next/static/chunks/d94e3fee77eb20d5.js"],"Contact"]
+b:I[76841,["/tattoo-portfolio/_next/static/chunks/5bab93f39577e409.js","/tattoo-portfolio/_next/static/chunks/d94e3fee77eb20d5.js"],"Footer"]
 c:I[97367,["/tattoo-portfolio/_next/static/chunks/42879de7b8087bc9.js"],"OutletBoundary"]
 d:"$Sreact.suspense"
-0:{"buildId":"OddF127g8SKj7U3oOt8XO","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{}],["$","main",null,{"className":"min-h-screen bg-background relative noise-overlay","children":[["$","$L4",null,{}],["$","$L5",null,{}],["$","$L6",null,{}],["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}],["$","$La",null,{}],["$","$Lb",null,{}]]}]],[["$","script","script-0",{"src":"/tattoo-portfolio/_next/static/chunks/3a9dde2252f0183e.js","async":true}]],["$","$Lc",null,{"children":["$","$d",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"KUI7tdEiIu4ZOzIA_2WhI","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{}],["$","main",null,{"className":"min-h-screen bg-background relative noise-overlay","children":[["$","$L4",null,{}],["$","$L5",null,{}],["$","$L6",null,{}],["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}],["$","$La",null,{}],["$","$Lb",null,{}]]}]],[["$","script","script-0",{"src":"/tattoo-portfolio/_next/static/chunks/d94e3fee77eb20d5.js","async":true}]],["$","$Lc",null,{"children":["$","$d",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]]}],"loading":null,"isPartial":false}
 e:null
