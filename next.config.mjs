@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  // basePath: "/portfolio-next-js", ## only used if no custom domain is used...
-  // assetPrefix: "/portoflio-next-js",
+  basePath: "/tattoo-portfolio", //## only used if no custom domain is used...
+  assetPrefix: "/tattoo-portoflio",
   trailingSlash: true,
 
   typescript: {
