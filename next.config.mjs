@@ -2,7 +2,7 @@
 const nextConfig = {
   output: 'export',
   basePath: "/tattoo-portfolio", //## only used if no custom domain is used...
-  assetPrefix: "/tattoo-portoflio",
+  assetPrefix: "/tattoo-portfolio",
   trailingSlash: true,
 
   typescript: {
